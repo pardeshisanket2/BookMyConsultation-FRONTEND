@@ -1,0 +1,24 @@
+a {
+  text-decoration: none;
+}
+
+/* doctors list css  */
+
+.card-containers-doctors {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.doctors-card-buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.rating-container-style {
+  display: flex;
+  align-items: center;
+}

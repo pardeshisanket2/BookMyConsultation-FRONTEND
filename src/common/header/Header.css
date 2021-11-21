@@ -1,0 +1,55 @@
+.app-header {
+  /* height: 70px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 11px;
+  background-color: #800080 !important;
+}
+
+.app-header-title {
+  display: flex;
+  align-items: center;
+}
+
+.app-header-title .app-title-text {
+  padding-left: 15px;
+  color: #fff;
+}
+
+ .app-header-title .app-logo{
+  background-color: #ff7f7f; 
+  height: 35px;
+  width: 35px;
+} 
+
+.login-overlay {
+  position: fixed;
+  inset: 0px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.login-modal {
+  position: absolute;
+  border: 1px solid rgb(204, 204, 204);
+  background: rgb(255, 255, 255);
+  border-radius: 4px;
+  outline: none;
+  min-height: 350px;
+  width: 350px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+.login-dialog-header {
+  padding: 30px 15px;
+  background-color: #800080;
+  color: #fff;
+}
+
+.login-dialog-container .MuiTabs-root {
+  padding: 0px 15px;
+}
